@@ -2,7 +2,9 @@ const users={
     name:"Ayush",
     Address:{
         foorNo:50,
-        location:"Dubai"
+        location:"Dubai",
+        pincode:[1234,4568]
+
     }
 }
 
