@@ -1,12 +1,15 @@
-const users={
-    name:"Ayush",
-    Address:{
-        foorNo:50,
-        location:"Dubai",
-        pincode:[1234,4568]
+// const users={
+//     name:"Ayush",
+//     Address:{
+//         foorNo:50,
+//         location:"Dubai",
+//         pincode:[1234,4568]
 
-    }
-}
+//     },
+//     fullName: function() { // This is a method
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
 
 function deepCopy(user){
     if(user===null ||typeof user!=="object") {
@@ -24,4 +27,3 @@ const ayush= deepCopy(users);
 ayush.Address.location="Gujarat";
 console.log(ayush);
 console.log(users);
-

@@ -13,4 +13,6 @@ ptintInfo:function(){
 
 user.ptintInfo();
 const updateUser ={...user,name:'Admin'};
+updateUser.settings.theme="dark"
 updateUser.ptintInfo();
+

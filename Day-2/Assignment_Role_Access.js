@@ -1,5 +1,4 @@
-let role="Mana"
-
+const role="Mana"
 switch(role){
     case "Admin":
         console.log("You have full access")
