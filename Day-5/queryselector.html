@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>querySelector</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            box-sizing: border-box;
+            height: 100px;
+            width: 100px;
+            padding: 20px;
+            margin: 20px;
+            border: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        const divElement =document.querySelectorAll("div");
+        divElement.forEach((element)=>
+    {
+        element.style="background-color:lightblue ";
+    })
+    </script>
+</body>
+</html>
